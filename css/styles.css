@@ -1,0 +1,251 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+:root{
+--primary-font:'Roboto', sans-serif;
+--secondary-font:'Raleway',sans-serif;
+--primary-color:#2E2F42;
+--secondary-color:#4D5AE5;
+--third-color:#434455;
+--hover-color:#404BBF;
+--focus-color: #404BBF;
+}
+
+
+/*-------------HEADER----------*/
+
+.logo-header{
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-color);
+}
+
+.logo-header>span{
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-color);
+}
+
+.menu-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-color);
+}
+
+.menu-link:hover{
+color:var(--hover-color);
+}
+
+.menu-link:focus{
+color:var(--focus-color);
+}
+
+.address{
+    font-style: normal;
+}
+
+.address-contact{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+}
+
+.address-contact:hover{
+color:var(--hover-color);
+}   
+
+.address-contact:focus{
+color: var(--focus-color);
+}
+
+/*-----HERO---------*/
+
+.hero{
+background: #2E2F42;
+}
+
+.hero-title{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-btn{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#FFFFFF;
+    background-color:var(--secondary-color);
+    cursor: pointer;
+}
+.modal-btn{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:var(--secondary-color);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.modal-btn:hover{
+color:#FFFFFF;
+background-color:var(--hover-color);
+}
+
+.modal-btn:focus{
+color: #FFFFFF;
+background-color: var(--focus-color);
+}
+
+/*----------FEATURES-----------*/
+
+.features-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-color);
+}
+
+.features-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--third-color);
+}
+
+/*------------ABOUT--------*/
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-color);
+}
+
+/*-------------TEAM------------*/
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-color);
+}
+.team-subtitle{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--primary-color);
+}
+
+.team-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--third-color);
+}
+
+.projects-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-color)
+}
+
+.projects-subtitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--third-color);
+}
+
+/*----------FOOTER-------------*/
+
+.footer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+.bottom{
+    background: #2E2F42;
+}
+.logo-bottom{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.marker{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
