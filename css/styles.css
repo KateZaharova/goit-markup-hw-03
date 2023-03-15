@@ -252,9 +252,13 @@ background-color: var(--focus-color);
 
 /*----------FEATURES-----------*/
 
+.features-container{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
 .features-list{
     display: flex;
-    justify-content: space-between;
     gap: var(--card-set-gap);
     flex-basis: calc((100%-3*var(--card-set-gap)/4)-24px);
     }
@@ -265,6 +269,11 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-color);
+}
+
+.features-item{
+    width:264px;
+    
 }
 
 .features-text{
